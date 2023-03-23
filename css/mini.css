@@ -1,0 +1,115 @@
+.padding a {
+	margin-top:1rem;
+	margin-right:4rem;
+}
+.navbar{
+	padding-bottom:0 !important;
+	padding-top:0 !important;
+}
+.but{
+	border-radius:10%;
+    font-size:23px;
+    background:transparent;
+    border:none;
+    margin-right:5px;
+    margin-top:1px;
+}
+.but:hover{
+    background:#ff497c;
+}
+a#logo{
+	margin-right:20%
+}
+div.pad{
+	margin-top:1% !important;
+}
+.mar{
+	padding-left:4% ;
+	padding-top:2%;
+	
+}
+	
+
+.display-4{
+	    font-size: 1.2rem !important;
+		width:100% !important;
+		text-shadow:1px 1px 50px #000;
+		
+}
+@media screen and (max-width: 996px) {
+.display-4{
+		font-size: 1.2rem !important;
+		width:100% !important;
+}
+
+
+}
+@media screen and (max-width: 768px) {
+.display-4{
+		font-size: 1.1rem !important;
+		width:100% !important;
+}
+
+}
+@media screen and (max-width: 526px) {
+.display-4{
+		font-size: 1rem !important;
+			width:100% !important;
+}
+
+}
+.line{
+	padding:15px 0px 0px 60px;
+	margin:0;
+}
+.line1{
+	padding:15px 0px 0px 100px;
+	margin:0;
+}
+
+
+.bord{
+	height:350px;
+	width:290px;
+	border:1px solid black;
+	margin:4% 5% 10% 10%;
+	border-radius:3%;
+	position:relative;
+}
+.bord1{
+	height:350px;
+	width:290px;
+	border:1px solid black;
+	margin:18% 5% 15% 10%;
+	border-radius:3%;
+}
+.bord3{
+	height:757px;
+	width:780px;
+	border:1px solid black;
+	margin-top:1.5%;
+	margin-left:-1%;
+	border-radius:2%;
+}
+div.carousel-item{
+	padding-top:4%;
+	padding-right:4%;
+	padding-left:4%;
+	
+}
+.p1{
+	padding-left:9%;
+	padding-top:1%;
+	margin-bottom:0;
+	
+}
+hr.whit{ 
+  height: 1px;
+  color: white;
+  background-color: white;
+  border: none;
+   width: 110.5%;
+    margin-left:-10%;
+}
+
+
