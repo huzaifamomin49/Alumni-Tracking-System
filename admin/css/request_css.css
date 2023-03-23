@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.c1
+{
+    max-width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+.c1:hover .card
+{
+    filter: blur(0.2px);
+    transform: scale(.7);
+}
+.c1 .card
+{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+.c1 .card:hover
+{
+    filter: blur(0px);
+    transform: scale(1);
+}
+.c1 .card:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1;
+    transition: 0.5s;
+}
+.c1 .card:hover:before
+{
+    background: #000;
+    transform: scaleY(1.15);
+    box-shadow: 0 5px 15px rgba(0,0,0,.2);
+}
+.c1 .card:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    transition: 0.5s;
+    background: rgba(255,255,255,.1);
+    z-index: 1;
+}
+.c1 .card:hover:after
+{
+    transform: scaleY(1.15);
+}
+.c1 .card:hover
+{
+    z-index: 1;
+}
+.c1 .card .content
+{
+    text-align: center;
+    z-index: 2;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+.c1 .card:hover .content
+{
+    color: #fff;
+}
+.c1 .card .content h3
+{
+    font-size: 3em;
+}
+.c1 .card .content p
+{
+    font-size: 0.9em;
+}
+.c1 .card .content a
+{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 5px 10px;
+    background: #262626;
+    color: #fff;
+    text-decoration: none;
+}
+.c1 .card:hover .content a
+{
+    background: #2196F3;
+}
